@@ -74,7 +74,7 @@ var customBuild = function(data, map) {
 var buildTable = function(stat) {
 	var data = [["", "Men", "Women/unspecified"],
 				["Armed", stat[0], stat[2]],
-				["Unarmed", stat[1], stat[3]]
+				["Unarmed/Unknown", stat[1], stat[3]]
 	];
 
 	var table = $('<table></table>').addClass('table table-striped');
