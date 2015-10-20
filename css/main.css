@@ -2,3 +2,16 @@
 #container {
 	height:800px;
 }
+
+
+#hit, #killed {
+	font-weight: bold;
+}
+
+#killed {
+	color: red;
+}
+
+#header, h1 {
+	text-align: center;
+}

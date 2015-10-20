@@ -24,13 +24,17 @@
   <body>
     <!-- You may want to put your title and additional informaiton here -->
     <div class="container">
+      <h1>Police shootings</h1>
+      <p id="header">This map shows crowdsourced police shooting data from <a href="http://regressing.deadspin.com/deadspin-police-shooting-database-update-were-still-go-1627414202" target="_blank">Deadspin</a>.  Circle color indicates if the victim was <span id="hit">hit</span> or <span id="killed">killed</span>.  Click each point for details.</p>
+
+      <div id="stats"></div>
+    </div>
+    <div class="container">
       <!-- This is the div that your map will go in.  You'll need to reference its id -->
       <div id="container"></div>
     </div>
     <script>
-      
-      // This is where you should execute your drawMap function
-      
+      drawMap();
     </script>
   </body>
 </html>
